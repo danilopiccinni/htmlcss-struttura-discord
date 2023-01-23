@@ -19,6 +19,7 @@ div.cont-nav{
 
 
 /* probabilmente dopo varrà per tutto il progetto */
+    max-width: 80%; 
     height: 100%;   
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +37,7 @@ div.links {
     width: 80%;
 
                      /* debug */
-                        height: 50px;
+                        height: 70px;
                         background-color: rgba(65, 65, 65, 0.229);
                     /* /debug */
 }
@@ -75,10 +76,40 @@ ul.links{
                         }
                 /* /debug nav*/
 
+
+
+
+
+
+
+header {
+    width: 100%;
+    height: 500px;
+
+                        /* debug */
+                        background-color: rgba(128, 128, 128, 0.239);
+                        /* /debug */
+
+
+}
+
+
 div.cont-header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    gap: 15px;
+
+    padding-top: 50px;
+    max-width: 80%;
+
+                        /* debug */
+                        background-color: rgba(118, 117, 117, 0.423);
+                        /* /debug */
+
 
 /* probabilmente dopo varrà per tutto il progetto */
     height: 100%;   
@@ -88,32 +119,52 @@ div.cont-header {
 }
 
 ul.link-header {
+    width: 250px;
+
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     list-style-type: none;
+
+                        /* debug */
+                        background-color: rgba(65, 65, 65, 0.229);
+                        /* /debug */
 }
+
+div.cont-title {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    height: 40%;
+}
+
                         /* dwbug */
                         ul.link-header li{
                             width: 100px;
                             height: 50px;
                             background-color: rgba(78, 78, 78, 0.831);
+
                         }
 
-                        .title-descript {
-                            width: 100px;
-                            height: 50px;
-                            background-color: rgba(78, 78, 78, 0.831);
-                        }
-
-                        .title {
-                            width: 100px;
-                            height: 50px;
+                        p {
+                            width: 600px;
+                            height: 200px;
                             background-color: rgba(78, 78, 78, 0.831);
                         }
 
                         h1 {
                             width: 600px;
-                            height: 200px;
+                            height: 80px;
+                            background-color: rgba(78, 78, 78, 0.831);
                         }
+
+
+
+
+
+
+
                         /* debug */
