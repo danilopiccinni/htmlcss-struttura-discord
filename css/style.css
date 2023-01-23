@@ -43,14 +43,14 @@ ul.links{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
     width: 100%;
     height: 100%;
     list-style-type: none;
 }
 
 
-                /* debug */
+                /* debug nav */
                         .logo {
                             min-width: 100px;
                             height: 50px;
@@ -64,9 +64,9 @@ ul.links{
                         }
 
 
-                        li {
+                        ul.links li {
                             min-width: 100px;
                             height: 50px;
                             background-color: rgba(78, 78, 78, 0.831);
                         }
-                /* /debug */
+                /* /debug nav*/
