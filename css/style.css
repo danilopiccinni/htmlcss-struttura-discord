@@ -3,22 +3,67 @@
 nav {
     width: 100%;
     height: 200px;
+
+                    /* debug */
+                        background-color: rgba(128, 128, 128, 0.239);
+                    /* /debug */
 }
 
 
 div.cont-nav{
     display: flex; 
     justify-content: space-between;
-
     align-items: center;
     max-width: 80%;
+
     height: 100%;   
     margin-left: auto;
     margin-right: auto;
+
+                    /* debug */
+                        background-color: rgba(118, 117, 117, 0.423);
+                    /* /debug */
    
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
+
+div.links {
+    width: 80%;
+
+                     /* debug */
+                        height: 50px;
+                        background-color: rgba(65, 65, 65, 0.229);
+                    /* /debug */
 }
+
+ul.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+
+                /* debug */
+                        .logo {
+                            width: 100px;
+                            height: 50px;
+                            background-color: rgba(78, 78, 78, 0.831);
+                        }
+
+                        .sign-in {
+                            width: 100px;
+                            height: 50px;
+                            background-color: rgba(78, 78, 78, 0.831);
+                        }
+
+
+                        li {
+                            width: 100px;
+                            height: 50px;
+                            background-color: rgba(78, 78, 78, 0.831);
+                        }
+                /* /debug */
