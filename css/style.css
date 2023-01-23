@@ -168,7 +168,7 @@ div.cont-title {
 
 main {
     width: 100%;
-    height: 400px;
+  
                         /* debug */
                         background-color: rgba(128, 128, 128, 0.239);
                         /* /debug */
@@ -182,10 +182,10 @@ div.boxsection-main {
 
 
     max-width: 80%;
-    height: 600px;
+
 
     /* probabilmente dopo varrà per tutto il progetto */
-    height: 100%;   
+    height: 800px;   
     margin-left: auto;
     margin-right: auto;
     /* probabilmente dopo varrà per tutto il progetto */
