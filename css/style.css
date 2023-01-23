@@ -112,9 +112,9 @@ div.cont-header {
 
 
 /* probabilmente dopo varrà per tutto il progetto */
-    height: 100%;   
-    margin-left: auto;
-    margin-right: auto;
+height: 100%;   
+margin-left: auto;
+margin-right: auto;
 /* probabilmente dopo varrà per tutto il progetto */
 }
 
@@ -141,7 +141,7 @@ div.cont-title {
     height: 40%;
 }
 
-                        /* dwbug */
+                    /* dwbug */
                         ul.link-header li{
                             width: 100px;
                             height: 50px;
@@ -149,7 +149,7 @@ div.cont-title {
 
                         }
 
-                        p {
+                        div.cont-title p {
                             width: 600px;
                             height: 200px;
                             background-color: rgba(78, 78, 78, 0.831);
@@ -160,11 +160,88 @@ div.cont-title {
                             height: 80px;
                             background-color: rgba(78, 78, 78, 0.831);
                         }
+                    /* debug */
 
 
 
 
+
+main {
+    width: 100%;
+    height: 400px;
+                        /* debug */
+                        background-color: rgba(128, 128, 128, 0.239);
+                        /* /debug */
+}
+
+
+div.boxsection-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    max-width: 80%;
+    height: 600px;
+
+    /* probabilmente dopo varrà per tutto il progetto */
+    height: 100%;   
+    margin-left: auto;
+    margin-right: auto;
+    /* probabilmente dopo varrà per tutto il progetto */
+
+
+                    /* debug */
+                    background-color: rgba(118, 117, 117, 0.423);
+                    /* /debug */
+   
+}
+
+div.img {
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+div.img-descript {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+    width: 50%;
+    height: 100%;
+
+}
 
 
 
                         /* debug */
+                            h2 {
+                                width: 300px;
+                                height: 150px;
+                                background-color: rgba(78, 78, 78, 0.831);
+                                
+                            }
+
+
+                            div.img-descript p {
+                                width: 300px;
+                                height: 150px;
+                                background-color: rgba(78, 78, 78, 0.831);
+                            }
+
+                            div.img {
+                                width: 50%;
+                                height: 300px;
+                            }
+
+                            div.img img {
+                                width: 300px;
+                                height: 100%;
+                                background-color: rgba(78, 78, 78, 0.831);
+                            }
+                        /* /debug */
+
