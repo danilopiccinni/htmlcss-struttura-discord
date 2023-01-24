@@ -315,3 +315,42 @@ img.img-final-section {
 
 
 
+
+
+
+footer {
+    width: 100%;
+    height: 500px;
+
+    /* debug */
+    background-color: rgba(11, 4, 141, 0.532);
+}
+
+div.cont-footer {
+    max-width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont-footer ul {
+    display: flex;
+    flex-direction: column;
+
+}
+.cont-footer li {
+    list-style-type: none;
+}
+
+div.cont-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 20px;
+}
+
+.cont-footer li {
+    width: 100px;
+    height: 50px;
+}
