@@ -1,5 +1,5 @@
 
-
+/* nav */
 nav {
     width: 100%;
     height: 200px;
@@ -76,12 +76,13 @@ ul.links{
                         }
                 /* /debug nav*/
 
+/* /nav */
 
 
 
 
 
-
+/* header */
 header {
     width: 100%;
     height: 500px;
@@ -185,7 +186,7 @@ div.boxsection-main {
 
 
     /* probabilmente dopo varrà per tutto il progetto */
-    height: 800px;   
+    height: 600px;   
     margin-left: auto;
     margin-right: auto;
     /* probabilmente dopo varrà per tutto il progetto */
@@ -213,21 +214,42 @@ align-items: center;
 
     width: 50%;
     height: 100%;
+}
 
+div.boxsection-main-reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+
+    max-width: 80%;
+
+
+    /* probabilmente dopo varrà per tutto il progetto */
+    height: 600px;   
+    margin-left: auto;
+    margin-right: auto;
+    /* probabilmente dopo varrà per tutto il progetto */
+
+
+                    /* debug */
+                    background-color: rgba(118, 117, 117, 0.423);
+                    /* /debug */
+   
 }
 
 
 
                         /* debug */
-                            h2 {
+                            div.final-section h2 {
                                 width: 300px;
-                                height: 150px;
+                                height: 300px
                                 background-color: rgba(78, 78, 78, 0.831);
-                                
                             }
 
 
-                            div.img-descript p {
+                            div.img-descript p{
                                 width: 300px;
                                 height: 150px;
                                 background-color: rgba(78, 78, 78, 0.831);
@@ -245,3 +267,26 @@ align-items: center;
                             }
                         /* /debug */
 
+
+div.final-section {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.final-section p{
+    width: 300px;
+    height: 100px;
+    background-color: rgba(78, 78, 78, 0.831);
+}
+
+.final-section div.img {
+    width: 50%;
+    height: 300px;
+}
