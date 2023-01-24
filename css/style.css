@@ -163,9 +163,9 @@ div.cont-title {
                         }
                     /* debug */
 
+/* main */
 
-
-
+/* section main */
 
 main {
     width: 100%;
@@ -200,7 +200,7 @@ div.boxsection-main {
 
 div.img {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 
     width: 50%;
     height: 100%;
@@ -210,11 +210,43 @@ div.img-descript {
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
 
     width: 50%;
     height: 100%;
 }
+
+
+
+                        /* debug main*/
+                            div.final-section h2 {
+                                width: 300px;
+                                height: 300px
+                                background-color: rgba(78, 78, 78, 0.831);
+                            }
+
+
+                            div.img-descript p{
+                                width: 300px;
+                                height: 150px;
+                                background-color: rgba(78, 78, 78, 0.831);
+                            }
+
+                            div.img {
+                                width: 50%;
+                                height: 300px;
+                            }
+
+                            div.img img {
+                                width: 300px;
+                                height: 100%;
+                                background-color: rgba(78, 78, 78, 0.831);
+                            }
+                        /* /debug main*/
+
+/* section main */
+
+/* section-reverse */
 
 div.boxsection-main-reverse {
     display: flex;
@@ -239,9 +271,27 @@ div.boxsection-main-reverse {
    
 }
 
+div.img-reverse {
+    display: flex;
+    justify-content: flex-start;
+
+    width: 50%;
+    height: 100%;
+}
+
+div.img-descript-reverse{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+
+    width: 50%;
+    height: 100%;
+}
 
 
-                        /* debug */
+
+                        /* debug main*/
                             div.final-section h2 {
                                 width: 300px;
                                 height: 300px
@@ -249,23 +299,26 @@ div.boxsection-main-reverse {
                             }
 
 
-                            div.img-descript p{
+                            div.img-descript-reverse p{
                                 width: 300px;
                                 height: 150px;
                                 background-color: rgba(78, 78, 78, 0.831);
                             }
 
-                            div.img {
+                            div.img-reverse {
                                 width: 50%;
                                 height: 300px;
                             }
 
-                            div.img img {
+                            div.img-reverse img {
                                 width: 300px;
                                 height: 100%;
                                 background-color: rgba(78, 78, 78, 0.831);
                             }
-                        /* /debug */
+                        /* /debug main*/
+
+
+
 
 
 div.final-section {
